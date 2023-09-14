@@ -1,0 +1,53 @@
+{
+  "name": "mini-tools",
+  "version": "1.0.0",
+  "description": "mini plugins, use for static files",
+  "main": "lib/mini-tools.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "bin": {
+    "mini": "./bin/start.js"
+  },
+  "scripts": {
+    "test": "node ./bin/start start -c mini.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinyangshibolange/mini-tools.git"
+  },
+  "keywords": [
+    "mini",
+    "static",
+    "tool"
+  ],
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "author": "hongyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yinyangshibolange/mini-tools/issues"
+  },
+  "homepage": "https://github.com/yinyangshibolange/mini-tools#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "imagemin": "^7.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^9.0.0",
+    "node-watch": "^0.7.4",
+    "uglify-js": "^3.17.4",
+    "yargonaut": "^1.1.4",
+    "yargs": "^17.7.2"
+  },
+  "dependencies": {
+    "chalk": "4.1.1",
+    "cssnano": "^6.0.1",
+    "cssnano-preset-lite": "^3.0.0",
+    "postcss": "^8.4.29"
+  }
+}
