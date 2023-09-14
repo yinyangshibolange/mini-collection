@@ -1,5 +1,5 @@
 {
-  "name": "mini-tools",
+  "name": "mini-collection",
   "version": "1.0.0",
   "description": "mini plugins, use for static files",
   "main": "lib/mini-tools.js",
@@ -42,9 +42,7 @@
     "node-watch": "^0.7.4",
     "uglify-js": "^3.17.4",
     "yargonaut": "^1.1.4",
-    "yargs": "^17.7.2"
-  },
-  "dependencies": {
+    "yargs": "^17.7.2",
     "chalk": "4.1.1",
     "cssnano": "^6.0.1",
     "cssnano-preset-lite": "^3.0.0",

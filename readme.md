@@ -1,4 +1,4 @@
-# mini-tools
+# mini-collection
 
 前端资源优化整合, 包含css压缩，js压缩，图片压缩
 
@@ -6,10 +6,10 @@
 
 ### 传统方法
 
-1. 安装mini-tools
+1. 安装mini-collection
 
 ```shell
-npm install mini-tools --save-dev / yarn add mini-tools -D / pnpm add mini-tools -D
+npm install mini-collection --save-dev / yarn add mini-collection -D / pnpm add mini-collection -D
 ```
 
 2. 初始化配置文件
@@ -43,7 +43,7 @@ npx mini start
 ### 在程序中使用
 
 ```nodejs
-const mini  = require("mini-tools")
+const mini  = require("mini-collection")
 const config = require("mini.config.js") // your vno config
 mini(config)
  .then(() => {
