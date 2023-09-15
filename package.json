@@ -1,6 +1,6 @@
 {
   "name": "mini-collection",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "mini plugins, use for static files",
   "main": "lib/mini-tools.js",
   "directories": {

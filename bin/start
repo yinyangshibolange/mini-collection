@@ -91,7 +91,7 @@ yargs.command({
       config.target = argv.target
     }
     if (argv.hot) {
-      config.hot = argv.hot
+      config.hot = (argv.hot == 1)
     }
 
     logger.success("配置加载成功，开始运行minijs！")
