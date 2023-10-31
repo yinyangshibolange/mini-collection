@@ -1,6 +1,6 @@
 {
   "name": "mini-collection",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "mini plugins, use for static files",
   "main": "lib/mini-tools.js",
   "directories": {
@@ -35,7 +35,6 @@
   "dependencies": {
     "autoprefixer": "^10.4.15",
     "imagemin": "^7.0.1",
-    "imagemin-gifsicle": "^7.0.0",
     "imagemin-jpegtran": "^7.0.0",
     "imagemin-pngquant": "^9.0.2",
     "imagemin-svgo": "^9.0.0",
