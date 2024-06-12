@@ -24,7 +24,7 @@ module.exports = {
          file: 'icon.ico', // 直接拷贝单个文件
          rename: 'favicon.ico',
      },{
-        fold: 'fonts',
+        fold: 'css',
         use: 'fontmin',
         ext: 'ttf'
      }
