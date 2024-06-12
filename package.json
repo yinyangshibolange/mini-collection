@@ -1,6 +1,6 @@
 {
   "name": "mini-collection",
-  "version": "1.0.10",
+  "version": "1.1.0",
   "description": "mini plugins, use for static files",
   "main": "lib/mini-tools.js",
   "directories": {
@@ -34,13 +34,14 @@
   "homepage": "https://github.com/yinyangshibolange/mini-tools#readme",
   "dependencies": {
     "autoprefixer": "^10.4.15",
-    "node-watch": "^0.7.4",
-    "uglify-js": "^3.17.4",
-    "yargonaut": "^1.1.4",
-    "yargs": "^17.7.2",
     "chalk": "4.1.1",
     "cssnano": "^6.0.1",
     "cssnano-preset-lite": "^3.0.0",
-    "postcss": "^8.4.29"
+    "fontmin": "^1.0.1",
+    "node-watch": "^0.7.4",
+    "postcss": "^8.4.29",
+    "uglify-js": "^3.17.4",
+    "yargonaut": "^1.1.4",
+    "yargs": "^17.7.2"
   }
 }
